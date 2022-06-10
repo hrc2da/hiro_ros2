@@ -1,0 +1,27 @@
+/**:
+  ros__parameters:
+    box_ymin_px: 270
+    box_xmin_px: 215
+    box_ymax_px: 425
+    box_xmax_px: 455
+    box_width_mm: 444.5
+    box_height_mm: 279.4
+    #(444.5/(450-230)+279.4/(475-150))/2
+    #should probably do this programatically
+    px_to_mm: 1.44
+
+/hiro_dynamixel/mover:
+  ros__parameters:
+    main_length: 148.4
+    forearm_length: 160.0
+    linkage_length: 155.0
+    lower_actuator_length: 65.0
+    upper_actuator_length: 54.4
+    wrist_length: 90.52
+    shoulder_offset: [0.0, 18.71]
+    x_offset_mm: 0.0 # centered means offset of half width
+    y_offset_mm: 75.0
+
+    
+
+

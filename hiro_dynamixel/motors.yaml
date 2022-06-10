@@ -1,0 +1,170 @@
+---
+AX:
+  #lowercase is value, uppercase is address dict
+  protocol_version: 1.0
+  MODEL_NUMBER: 
+    ADDR: 0
+    LEN: 2
+  ID:
+    ADDR: 3
+    LEN: 1
+  BAUD_RATE: 
+    ADDR: 4
+    LEN: 1
+  CW_ANGLE_LIMIT: 
+    ADDR: 6
+    LEN: 2
+  CCW_ANGLE_LIMIT: 
+    ADDR: 8
+    LEN: 2
+  TEMPERATURE_LIMIT: 
+    ADDR: 11
+    LEN: 1
+  MIN_VOLTAGE_LIMIT: 
+    ADDR: 12
+    LEN: 1
+  MAX_VOLTAGE_LIMIT: 
+    ADDR: 13
+    LEN: 1
+  MAX_TORQUE: 
+    ADDR: 14
+    LEN: 2
+  ALARM_LED: 
+    ADDR: 17
+    LEN: 1
+  SHUTDOWN:
+    ADDR: 18
+    LEN: 1
+  TORQUE_ENABLE: 
+    ADDR: 24
+    LEN: 1
+  STATUS_LED: 
+    ADDR: 25
+    LEN: 1
+  CW_COMPLIANCE_MARGIN: 
+    ADDR: 26
+    LEN: 1
+  CCW_COMPLIANCE_MARGIN: 
+    ADDR: 27
+    LEN: 1
+  CW_COMPLIANCE_SLOPE: 
+    ADDR: 28
+    LEN: 1
+  CCW_COMPLIANCE_SLOPE: 
+    ADDR: 29
+    LEN: 1 
+  GOAL_POSITION: 
+    ADDR: 30
+    LEN: 2
+  MOVING_SPEED: 
+    ADDR: 32
+    LEN: 2
+  TORQUE_LIMIT: 
+    ADDR: 34
+    LEN: 2
+  PRESENT_POSITION: 
+    ADDR: 36
+    LEN: 2
+  PRESENT_SPEED: 
+    ADDR: 38
+    LEN: 2
+  PRESENT_LOAD: 
+    ADDR: 40
+    LEN: 2
+  PRESENT_VOLTAGE: 
+    ADDR: 42
+    LEN: 1
+  PRESENT_TEMPERATURE: 
+    ADDR: 43
+    LEN: 1
+  MOVING: 
+    ADDR: 46
+    LEN: 1
+  PUNCH:
+    ADDR: 48
+    LEN: 2
+RX:
+  protocol_version: 1.0
+  MODEL_NUMBER: 
+    ADDR: 0
+    LEN: 2
+  ID:
+    ADDR: 3
+    LEN: 1
+  BAUD_RATE: 
+    ADDR: 4
+    LEN: 1
+  CW_ANGLE_LIMIT: 
+    ADDR: 6
+    LEN: 2
+  CCW_ANGLE_LIMIT: 
+    ADDR: 8
+    LEN: 2
+  TEMPERATURE_LIMIT: 
+    ADDR: 11
+    LEN: 1
+  MIN_VOLTAGE_LIMIT: 
+    ADDR: 12
+    LEN: 1
+  MAX_VOLTAGE_LIMIT: 
+    ADDR: 13
+    LEN: 1
+  MAX_TORQUE: 
+    ADDR: 14
+    LEN: 2
+  ALARM_LED: 
+    ADDR: 17
+    LEN: 1
+  SHUTDOWN:
+    ADDR: 18
+    LEN: 1
+  TORQUE_ENABLE: 
+    ADDR: 24
+    LEN: 1
+  STATUS_LED: 
+    ADDR: 25
+    LEN: 1
+  CW_COMPLIANCE_MARGIN: 
+    ADDR: 26
+    LEN: 1
+  CCW_COMPLIANCE_MARGIN: 
+    ADDR: 27
+    LEN: 1
+  CW_COMPLIANCE_SLOPE: 
+    ADDR: 28
+    LEN: 1
+  CCW_COMPLIANCE_SLOPE: 
+    ADDR: 29
+    LEN: 1 
+  GOAL_POSITION: 
+    ADDR: 30
+    LEN: 2
+  MOVING_SPEED: 
+    ADDR: 32
+    LEN: 2
+  TORQUE_LIMIT: 
+    ADDR: 34
+    LEN: 2
+  PRESENT_POSITION: 
+    ADDR: 36
+    LEN: 2
+  PRESENT_SPEED: 
+    ADDR: 38
+    LEN: 2
+  PRESENT_LOAD: 
+    ADDR: 40
+    LEN: 2
+  PRESENT_VOLTAGE: 
+    ADDR: 42
+    LEN: 1
+  PRESENT_TEMPERATURE: 
+    ADDR: 43
+    LEN: 1
+  MOVING: 
+    ADDR: 46
+    LEN: 1
+  PUNCH:
+    ADDR: 48
+    LEN: 2
+XL-330:
+  None
